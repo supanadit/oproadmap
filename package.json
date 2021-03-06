@@ -1,0 +1,29 @@
+{
+  "name": "oproadmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --watch --progress",
+    "build": "webpack --config webpack.config.js --mode='production'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supanadit/oproadmap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supanadit/oproadmap/issues"
+  },
+  "homepage": "https://github.com/supanadit/oproadmap#readme",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
